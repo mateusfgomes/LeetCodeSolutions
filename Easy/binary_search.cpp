@@ -1,3 +1,7 @@
+#include <vector>
+
+using namespace std;
+
 int binarySearch(vector<int>& nums, int target, int start, int end){
     if(start > end) return -1;
     
